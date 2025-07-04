@@ -40,6 +40,7 @@ function aplicarConfiguracionGlobal() {
   document.body.classList.add(`fuente-${tamano}`);
 }
 
+//  form del login
 function configurarLogin() {
   const loginForm = document.getElementById("login-form");
   if (!loginForm) return;
