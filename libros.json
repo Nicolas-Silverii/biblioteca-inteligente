@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "año": 1967,
+    "imagen": "../img/100años.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "año": 1949,
+    "imagen": "../img/1984.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "año": 1963,
+    "imagen": "../img/rayuela.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Veinte mil leguas de viaje submarino",
+    "autor": "Julio Verne",
+    "año": 1870,
+    "imagen": "../img/veintemil.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Estudio en escarlata",
+    "autor": "Arthur Conan Doyle",
+    "año": 1887,
+    "imagen": "../img/escarlata.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "año": 1997,
+    "imagen": "../img/filosofal.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Los juegos del hambre",
+    "autor": "Suzanne Collins",
+    "año": 2008,
+    "imagen": "../img/los-juegos-del-hambre.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "El origen de las especies",
+    "autor": "Charles Darwin",
+    "año": 1859,
+    "imagen": "../img/especies.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "El alquimista",
+    "autor": "Paulo Coelho",
+    "año": 1988,
+    "imagen": "../img/alquimista.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "año": 2001,
+    "imagen": "../img/sombradelviento.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "It (Eso)",
+    "autor": "Stephen King",
+    "año": 1986,
+    "imagen": "../img/it.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "El cuento de la criada",
+    "autor": "Margaret Atwood",
+    "año": 1985,
+    "imagen": "../img/el-cuento-de-la-criada.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "El marciano",
+    "autor": "Andy Weir",
+    "año": 2011,
+    "imagen": "../img/el-marciano.jpg"
+  },
+  {
+    "id": 14,
+    "titulo": "Cometas en el cielo",
+    "autor": "Khaled Hosseini",
+    "año": 2003,
+    "imagen": "../img/cometas-en-el-cielo.jpg"
+  },
+  {
+    "id": 15,
+    "titulo": "Mil soles espléndidos",
+    "autor": "Khaled Hosseini",
+    "año": 2007,
+    "imagen": "../img/mil-soles-esplendidos.jpg"
+  },
+  {
+    "id": 16,
+    "titulo": "Los pilares de la tierra",
+    "autor": "Ken Follett",
+    "año": 1989,
+    "imagen": "../img/pilares-de- la- tierra.jpg"
+  },
+  {
+    "id": 17,
+    "titulo": "La chica del tren",
+    "autor": "Paula Hawkins",
+    "año": 2015,
+    "imagen": "../img/la-chica-del-tren.jpg"
+  },
+  {
+    "id": 18,
+    "titulo": "Cincuenta sombras de Grey",
+    "autor": "E.L. James",
+    "año": 2011,
+    "imagen": "../img/cincuenta-sombras-de-grey.jpg"
+  },
+  {
+    "id": 19,
+    "titulo": "Ready Player One",
+    "autor": "Ernest Cline",
+    "año": 2011,
+    "imagen": "../img/ready.jpg"
+  },
+  {
+    "id": 20,
+    "titulo": "La carretera",
+    "autor": "Cormac McCarthy",
+    "año": 2006,
+    "imagen": "../img/la-carretera.jpg"
+  },
+  {
+    "id": 21,
+    "titulo": "Pensar rápido, pensar despacio",
+    "autor": "Daniel Kahneman",
+    "año": 2011,
+    "imagen": "../img/pensar-rapido-pensar-despacio.jpg"
+  },
+  {
+    "id": 22,
+    "titulo": "Americanah",
+    "autor": "Chimamanda Ngozi Adichie",
+    "año": 2013,
+    "imagen": "../img/Americanah.jpg"
+  },
+  {
+    "id": 23,
+    "titulo": "La educación",
+    "autor": "Tara Westover",
+    "año": 2018,
+    "imagen": "../img/una-educacion.jpg"
+  },
+  {
+    "id": 24,
+    "titulo": "El niño con el pijama de rayas",
+    "autor": "John Boyne",
+    "año": 2006,
+    "imagen": "../img/el-nino-con-el-pijama-de-rayas.jpg"
+  },
+  {
+    "id": 25,
+    "titulo": "El nombre del viento",
+    "autor": "Patrick Rothfuss",
+    "año": 2007,
+    "imagen": "../img/el-nombre-del-viento.jpg"
+  },
+  {
+    "id": 26,
+    "titulo": "Trono de Cristal",
+    "autor": "Sarah J. Maas",
+    "año": 2012,
+    "imagen": "../img/trono-de-cristal.jpg"
+  },
+  {
+    "id": 27,
+    "titulo": "Obsidian",
+    "autor": "Jennifer L. Armentrout",
+    "año": 2011,
+    "imagen": "../img/obsidian.jpg"
+  },
+  {
+    "id": 28,
+    "titulo": "Sapiens: De animales a dioses",
+    "autor": "Yuval Noah Harari",
+    "año": 2011,
+    "imagen": "../img/de-animales-a-dioses.jpg"
+  },
+  {
+  "id": 29,
+  "titulo": "El principito",
+  "autor": "Antoine de Saint-Exupéry",
+  "año": 1943,
+  "imagen": "../img/principito.jpg"
+},
+{
+  "id": 30,
+  "titulo": "Orgullo y prejuicio",
+  "autor": "Jane Austen",
+  "año": 1813,
+  "imagen": "../img/orgullo-y-prejuicio.jpg"
+},
+{
+  "id": 31,
+  "titulo": "Crimen y castigo",
+  "autor": "Fiódor Dostoyevski",
+  "año": 1866,
+  "imagen": "../img/crimen-castigo.jpg"
+},
+{
+  "id": 32,
+  "titulo": "Drácula",
+  "autor": "Bram Stoker",
+  "año": 1897,
+  "imagen": "../img/dracula.jpg"
+}
+]
+
+

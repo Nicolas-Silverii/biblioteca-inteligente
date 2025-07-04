@@ -21,11 +21,11 @@ Desarrollada utilizando HTML, CSS y JavaScript puro, sin frameworks.
 
 # Funcionalidades Incluidas (MVP)
 
-- 🔐 Login de usuario simulado (sin backend)
-- 📚 Listado de libros en grilla
-- ➕ Agregar y 🗑️ eliminar libros desde la interfaz
-- 💬 Agregar comentarios por libro (reseñas)
-- 📱 Interfaz responsive en HTML, CSS y JS puro
+- Login de usuario simulado (sin backend)
+- Listado de libros en grilla
+- Agregar y 🗑️ eliminar libros desde la interfaz
+- Agregar comentarios por libro (reseñas)
+- Interfaz responsive en HTML, CSS y JS puro
 
 ---
 

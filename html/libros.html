@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Libros</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div id="logo-container">
+      <img src="../img/logo.png" alt="Logo Biblioteca" id="logo" />
+    </div>
+      
+<nav class="navbar">
+  <ul class="navbar-list">
+      <li><a href="libros.html">📚 Libros</a></li>
+      <li><a href="perfil.html">👤 Mis libros</a></li>
+
+      <li class="empujar-derecha">
+         <div class="search-container">
+    <input type="text" id="buscar-libros" placeholder="Buscar libros..." />
+  </div>
+        <li><a href="#" onclick="cerrarSesion()">🚪 Cerrar sesión</a></li>
+        <button id="btn-ajustes">⚙</button>
+        
+      </li>
+      
+  </ul>
+
+ 
+</nav>
+
+  </header>
+
+  <main>
+    <section id="mis-libros">
+      <h2>BIBLIOTECA</h2>
+      <div id="lista-libros" class="grid-libros"></div>
+    </section>
+  </main>
+
+  
+  <div id="modal-ajustes" class="modal oculto">
+    <div class="modal-contenido">
+      <h2 id="modal-title">Ajustes</h2>
+
+      <label for="tema-select">Tema:</label>
+      <select id="tema-select">
+        <option value="claro">Claro</option>
+        <option value="oscuro">Oscuro</option>
+      </select>
+
+      <label for="fuente-select">Tamaño de Fuente:</label>
+      <select id="fuente-select">
+        <option value="chica">Chica</option>
+        <option value="mediana">Mediana</option>
+        <option value="grande">Grande</option>
+      </select>
+
+      <div class="modal-botones">
+        <button id="guardar-ajustes">Guardar</button>
+        <button id="cerrar-ajustes">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Biblioteca Interactiva – Todos los derechos reservados</p>
+    <p><a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a></p>
+  </footer>
+
+  <script src="../js/utilidades.js"></script>
+  <script src="../js/verificacion.js"></script>
+  <script src="../js/ajustes.js"></script>
+  <script src="../js/libros.js"></script>
+</body>
+</html>
