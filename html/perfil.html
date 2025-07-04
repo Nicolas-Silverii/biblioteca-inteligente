@@ -15,14 +15,16 @@
 
   <nav class="navbar">
     <ul class="navbar-list">
-      <li><a href="libros.html">📚 Libros</a></li>
+      <li><a href="libros.html">📚 Biblioteca</a></li>
       <li><a href="perfil.html">👤 Mis libros</a></li>
 
       <li class="empujar-derecha">
         <li><a href="#" onclick="cerrarSesion()">🚪 Cerrar sesión</a></li>
         <button id="btn-ajustes">⚙</button>
+        
       </li>
-     
+
+      
     </ul>
   </nav>
 </header>
@@ -33,6 +35,18 @@
   <h2>MIS LIBROS</h2>
   <div id="favoritos-container" class="grid-libros"></div>
 </section>
+<section id="agregar-libro" class="grid-libros">
+  <div class="libro-favorito">
+    <h3>Agregar nuevo libro</h3>
+    <form id="form-nuevo-libro">
+      <input type="text" id="titulo-nuevo" placeholder="Título" required />
+      <input type="text" id="autor-nuevo" placeholder="Autor" required />
+      <input type="file" id="imagen-nueva" accept="image/*" required />
+      <button type="submit">Agregar</button>
+    </form>
+  </div>
+</section>
+
 
   <!-- Modal de Ajustes -->
   <div id="modal-ajustes" class="modal oculto">
@@ -41,7 +55,7 @@
 
       <label for="tema-select">Tema:</label>
       <select id="tema-select">
-        <option value="claro">Claro</option>
+         <option value="claro">Claro</option>
         <option value="oscuro">Oscuro</option>
       </select>
 
@@ -57,6 +71,7 @@
         <button id="cerrar-ajustes">Cerrar</button>
       </div>
     </div>
+    
   </div>
 
    <footer>

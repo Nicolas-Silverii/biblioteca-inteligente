@@ -36,7 +36,7 @@ body {
   transition: background .3s, color .3s, font-size .3s;
   overflow-x: hidden;
 }
-body.claro            { background: var(--color-terciario); }
+body.claro            { background-color:white; }
 body.oscuro           { background: var(--fondo-oscuro); color: var(--texto-claro); }
 body.fuente-chica     { font-size: var(--fuente-chica); }
 body.fuente-mediana   { font-size: var(--fuente-mediana); }
@@ -107,7 +107,7 @@ NAVBAR & LOGO
   padding: 20px 0;
 }
 #logo {
-  max-height: 80px;
+  max-height: 140px;
   object-fit: contain;
 }
 
@@ -160,9 +160,11 @@ NAVBAR & LOGO
   border-radius: 2px;
 }
 
+
 /*
    LIBROS Y FAVORITOS
 */
+
 #mis-libros .grid-libros {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

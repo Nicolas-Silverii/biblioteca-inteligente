@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("✅ ajustes.js cargado");
+  console.log(" ajustes.js cargado");
 
   aplicarConfiguracionGlobal();
 
@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // modal 
   const abrirBtn    = document.getElementById("btn-ajustes");
   const modal       = document.getElementById("modal-ajustes");
   const cerrarBtn   = document.getElementById("cerrar-ajustes");
@@ -32,8 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
   guardarBtn.addEventListener("click", () => {
     guardarEnStorage("temaUsuario", temaSelect.value);
     guardarEnStorage("tamanoFuente", fuenteSelect.value);
-    console.log(`💾 Ajustes guardados: tema=${temaSelect.value}, fuente=${fuenteSelect.value}`);
+    console.log(` Ajustes guardados: tema=${temaSelect.value}, fuente=${fuenteSelect.value}`);
     aplicarConfiguracionGlobal();
     modal.classList.add("oculto");
-  });
+  }); 
 });

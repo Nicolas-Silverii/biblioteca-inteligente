@@ -78,6 +78,8 @@ function filtrarLibros(e) {
   cargarLibros(filtrados);
 }
 
+
+
 function configurarEventos() {
   const buscarInput = document.getElementById("buscar-libros");
   if (buscarInput) {
